@@ -24,7 +24,7 @@ h2{
 .nav-bar{
     border: 0.2px solid black;
     height: 50px;
-    width: 1370px;
+    width: 1361px;
     margin-left: -117px;
     padding-top: 0px;
     margin-top: 45px;
@@ -65,4 +65,39 @@ h2{
 
 .nav-bar i{
     color: white;
+    font-size: 20px;
+}
+
+.nav-bar p{
+    margin-top: -20px;
+}
+
+/******************************************** FORMATTING VIDEO SECTION **************************************/
+
+.video-container {
+    position: absolute;
+    margin-left: -12px;
+}
+.video-container video {
+    width: 1355px;
+    height: 760px;
+    /* Center the video */
+    position: absolute;
+}
+
+.text-container{
+    display: inline-block;
+    position: absolute;
+    width: 900px;
+    background-color: white;
+    transform: translate(25%,85%);
+}
+
+.text-container p{
+    color: black;
+    font-size: 20px;
+}
+
+.text-container h2{
+    margin-left: 200px;
 }
